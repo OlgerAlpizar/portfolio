@@ -1,0 +1,7 @@
+@use '../../shared/styles/global.module' as globalStyle;
+
+.footer {
+  width: 100%;
+  border-top: 1px globalStyle.$primary-color solid;
+  padding: 1vh 3vw;
+}

@@ -1,0 +1,27 @@
+@use '../../app.module' as globalStyle;
+
+.singIn {
+  text-decoration: none;
+}
+
+.imageBrand {
+  height: 100px;
+  margin: -30px 20px;
+  margin-left: 20px;
+}
+
+.navItem {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.headerContainer {
+  max-width: 100%;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}

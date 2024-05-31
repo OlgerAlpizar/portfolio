@@ -1,0 +1,41 @@
+$primary-color: #ff8c00;
+$primary-color-hover: #d2691e;
+
+.primaryIconBtn {
+  color: $primary-color;
+}
+
+.primaryIconBtn:hover {
+  color: $primary-color-hover;
+}
+
+.primaryBtn,
+.primaryBtn:disabled {
+  background-color: $primary-color;
+  border-color: $primary-color-hover;
+  width: 100%;
+}
+
+.primaryBtn:hover {
+  background-color: $primary-color-hover;
+}
+
+.primaryCheck {
+  display: inline-block;
+  border-color: $primary-color-hover;
+}
+
+.primaryCheck:checked {
+  background-color: $primary-color;
+  border-color: $primary-color-hover;
+}
+
+.card-form {
+  box-shadow: inset 0 0 5px gainsboro;
+  padding: 0;
+  margin: 10%;
+}
+
+.card-body {
+  padding: 5%;
+}
